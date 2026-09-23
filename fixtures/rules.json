@@ -1,0 +1,8 @@
+{
+  "min_pay": 20,
+  "max_pay": 250,
+  "max_claimants": 3,
+  "allowed_kinds": ["bounty", "fixed_task"],
+  "reject_kinds": ["newsletter", "waitlist", "screener"],
+  "require_fields": ["id", "title", "pay", "url", "work"]
+}

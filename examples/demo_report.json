@@ -1,0 +1,62 @@
+{
+  "first_run": {
+    "status": "SIGNAL",
+    "cards": [
+      {
+        "OPPORTUNITY": "Add CSV export to the demo CLI",
+        "WHY IT PASSED": "passed pay, kind, required fields, and competition cap",
+        "PAYMENT": 40,
+        "EXACT WORK": "Add a tested CSV export command",
+        "ACCESS / COMPETITION": "bounty / claimants=1",
+        "ACTION NOW": "Read the issue tests, then claim b-40."
+      },
+      {
+        "OPPORTUNITY": "Normalize the sample supplier file",
+        "WHY IT PASSED": "passed pay, kind, required fields, and competition cap",
+        "PAYMENT": 30,
+        "EXACT WORK": "Map the attached CSV and return rejected rows",
+        "ACCESS / COMPETITION": "fixed_task / claimants=2",
+        "ACTION NOW": "Claim task t-30 and deliver the CSV pack."
+      }
+    ],
+    "rejected": [
+      {
+        "id": "n-1",
+        "reason": "rejected kind: newsletter"
+      },
+      {
+        "id": "w-1",
+        "reason": "rejected kind: waitlist"
+      },
+      {
+        "id": "b-low",
+        "reason": "pay 8 outside 20-250"
+      },
+      {
+        "id": "b-40",
+        "reason": "already seen"
+      },
+      {
+        "id": "b-crowd",
+        "reason": "claimants 40 over max"
+      },
+      {
+        "id": "t-broken",
+        "reason": "missing url"
+      }
+    ],
+    "seen": [
+      "b-40",
+      "b-crowd",
+      "b-low",
+      "n-1",
+      "t-30",
+      "t-broken",
+      "w-1"
+    ]
+  },
+  "second_run": {
+    "status": "NO SIGNAL",
+    "cards": []
+  }
+}

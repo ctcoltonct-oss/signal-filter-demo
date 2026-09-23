@@ -1,0 +1,75 @@
+[
+  {
+    "id": "n-1",
+    "kind": "newsletter",
+    "title": "Ten remote side hustles",
+    "pay": 0,
+    "url": "https://example.com/newsletter",
+    "work": "Read an article"
+  },
+  {
+    "id": "w-1",
+    "kind": "waitlist",
+    "title": "Join the research panel waitlist",
+    "pay": 12,
+    "url": "https://example.com/waitlist",
+    "work": "Create a profile and wait"
+  },
+  {
+    "id": "b-low",
+    "kind": "bounty",
+    "title": "Tiny typo bounty",
+    "pay": 8,
+    "claimants": 0,
+    "url": "https://example.com/bounties/8",
+    "work": "Fix a typo",
+    "action": "Skip. Below the pay floor."
+  },
+  {
+    "id": "b-40",
+    "kind": "bounty",
+    "title": "Add CSV export to the demo CLI",
+    "pay": 40,
+    "claimants": 1,
+    "url": "https://example.com/bounties/40",
+    "work": "Add a tested CSV export command",
+    "action": "Read the issue tests, then claim b-40."
+  },
+  {
+    "id": "b-40",
+    "kind": "bounty",
+    "title": "Duplicate posting of the same bounty",
+    "pay": 40,
+    "claimants": 1,
+    "url": "https://example.com/bounties/40",
+    "work": "Same work again"
+  },
+  {
+    "id": "b-crowd",
+    "kind": "bounty",
+    "title": "Crowded frontend rewrite",
+    "pay": 80,
+    "claimants": 40,
+    "url": "https://example.com/bounties/80",
+    "work": "Rewrite the UI"
+  },
+  {
+    "id": "t-30",
+    "kind": "fixed_task",
+    "title": "Normalize the sample supplier file",
+    "pay": 30,
+    "claimants": 2,
+    "url": "https://example.com/tasks/30",
+    "work": "Map the attached CSV and return rejected rows",
+    "action": "Claim task t-30 and deliver the CSV pack."
+  },
+  {
+    "id": "t-broken",
+    "kind": "fixed_task",
+    "title": "Task with no URL",
+    "pay": 50,
+    "claimants": 0,
+    "url": "",
+    "work": "Unknown"
+  }
+]
